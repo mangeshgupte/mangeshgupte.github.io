@@ -1,0 +1,7 @@
+title: "Mangesh Gupte's Website"
+description: 'A personal website where is write about stuff i am feeling about right now.'
+port: 4000
+safe: true
+pygments: true
+ga: 'UA-5272959-6'
+exclude: [README.md', 'Rakefile', 'component.json']
