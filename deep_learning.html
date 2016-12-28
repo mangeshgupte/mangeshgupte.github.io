@@ -1,0 +1,27 @@
+---
+layout: page
+title: Deep Learning
+css: index
+js: index
+---
+
+<html> <head>
+<title> Deep Learning </title>
+</head>
+
+<body>
+<h1> Concepts in Deep Learning that I wish to understand better </h1>
+
+
+<ul>
+    {% for post in site.dl %}
+	<li>
+		<a href="{{ post.url }}">{{ post.title }}</a>
+		{{ post.excerpt }}
+	</li>
+	{% endfor %}
+</ul>
+
+<hr>
+<!-- hhmts start -->Last modified: Fri Apr 29 17:09:53 PDT 2016 <!-- hhmts end -->
+</body> </html>
