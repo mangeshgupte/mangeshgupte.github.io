@@ -4,4 +4,4 @@ title: About
 permalink: /about/
 ---
 
-Books, Computer Science and Stuff.
+Books, Computer Science and New Technologies.

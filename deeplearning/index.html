@@ -1,0 +1,31 @@
+---
+layout: page
+title: Deep Learning
+css: index
+js: index
+---
+
+<html> <head>
+  <title> Deep Learning </title>
+</head>
+
+<body>
+  <ul>
+
+
+	{{ site.deeplearning | inspect }}
+
+	{% for article in site.deeplearning %}
+	<li>
+	  <a href="{{ article.url }}">{{ article.title }}</a>
+	  {{ article.excerpt }}
+	  {{ article.output }}
+	</li>
+	{% endfor %}
+  </ul>
+
+
+  <hr>
+  <!-- hhmts start -->Last modified: Fri Apr 29 17:09:53 PDT 2016 <!-- hhmts end -->
+</body>
+</html>
